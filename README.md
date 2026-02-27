@@ -1,2 +1,2 @@
 # jmorales-portfolio.github.io
-Portfolio site for editing work
+This is a portfolio site to document my editing portfolio.
