@@ -1,0 +1,51 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.bvm-icon {
+	color: #b8a65d;
+}
+
+.icon-wrapper {
+	display: flex;
+  justify-content: center; /* Horizontally centers */
+  align-items: center; /* Vertically centers (if the column has height) */
+  width: 100%; /* Ensure it takes the full column width */
+  text-align: center; /* Fallback for inline elements */
+}
+
+a.no-click:hover {
+  cursor: default;
+}
+
+footer {
+  transition: background-color 0.3s ease;
+}
+
+/* Highlight animation class */
+footer#contact.footer-highlight {
+    animation: footer-blink 1s ease;
+    color: #fff;
+}
+
+@keyframes footer-blink {
+    0% {
+        background-color: #333347;
+    }
+    50% {
+        background-color: #6666aa; /* Brighter color */
+    }
+    100% {
+        background-color: #333347;
+    }
+}
+
+@media all and (max-width: 767px) {
+	#nav-logo {
+		max-width: 325px;
+	}
+}
+
+@media all and (max-width: 405px) {
+	#nav-logo {
+		max-width: 225px;
+	}
+}
